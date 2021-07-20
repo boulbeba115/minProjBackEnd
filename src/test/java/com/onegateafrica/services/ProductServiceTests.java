@@ -1,4 +1,4 @@
-package com.onegateafrica;
+package com.onegateafrica.services;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.AdditionalAnswers.returnsFirstArg;
@@ -21,7 +21,6 @@ import com.onegateafrica.entities.Category;
 import com.onegateafrica.entities.Product;
 import com.onegateafrica.repositories.CategoryRepo;
 import com.onegateafrica.repositories.ProductRepo;
-import com.onegateafrica.services.ProductService;
 
 
 

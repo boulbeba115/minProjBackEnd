@@ -1,4 +1,4 @@
-package com.onegateafrica;
+package com.onegateafrica.services;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.AdditionalAnswers.returnsFirstArg;
@@ -19,7 +19,6 @@ import org.mockito.junit.jupiter.MockitoExtension;
 
 import com.onegateafrica.entities.Category;
 import com.onegateafrica.repositories.CategoryRepo;
-import com.onegateafrica.services.CategoryService;
 
 @ExtendWith(MockitoExtension.class)
 class CategoryServiceTest {
